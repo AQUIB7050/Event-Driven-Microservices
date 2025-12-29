@@ -36,9 +36,12 @@ Independent microservices communicate asynchronously via Kafka topics, enabling:
 +----------------+
 | email-service  |
 +----------------+
-Each service runs independently and can scale horizontally.
-Kafka ensures asynchronous communication and decoupling between services.
+
 ```
+Each service runs independently and can scale horizontally.
+
+Kafka ensures asynchronous communication and decoupling between services.
+
 
 
 ## 🛠 Technologies Used
