@@ -119,12 +119,15 @@ bin/kafka-topics.sh --list --bootstrap-server localhost:9092
 ```
 
 📂 Folder Structure
-Microservices/
-├── base-domains/      # Shared DTOs and models
-├── email-service/     # Email notification service
-├── order-service/     # Order management & event producer
-├── stock-service/     # Inventory update consumer
-└── .gitignore
+
+| Folder / File       | Description                              |
+|---------------------|------------------------------------------|
+| base-domains        | Shared DTOs and domain models             |
+| email-service       | Email notification microservice           |
+| order-service       | Order management & Kafka event producer   |
+| stock-service       | Inventory update Kafka consumer           |
+| .gitignore          | Git ignore configuration                  |
+
 
 🔄 How It Works
 Order Service publishes an event when an order is placed
