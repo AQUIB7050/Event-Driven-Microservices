@@ -163,5 +163,6 @@ git push origin feature-name
 
 Open a Pull Request
 
-📄 License
+### 📄 License
+
 This project is MIT Licensed.
