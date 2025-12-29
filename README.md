@@ -166,3 +166,14 @@ Open a Pull Request
 ### 📄 License
 
 This project is MIT Licensed.
+
+## 👤 Author
+
+**Aquib Ahmed Ansari**  
+
+🌐 [Portfolio](https://my-portfolio-nu-sable-23.vercel.app/)
+
+💼 [LinkedIn](https://www.linkedin.com/in/aquib-ahmed-7050/)
+
+🔗 [GitHub](https://github.com/AQUIB7050)  
+
