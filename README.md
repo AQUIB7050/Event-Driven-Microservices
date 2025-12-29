@@ -41,7 +41,7 @@ Kafka ensures asynchronous communication and decoupling between services.
 ```
 
 
-🛠 Technologies Used
+## 🛠 Technologies Used
 
 Java 16
 
@@ -57,7 +57,7 @@ Docker (optional)
 
 SLF4J & Logback
 
-✨ Features
+## ✨ Features
 
 Event-driven communication using Kafka
 
@@ -69,9 +69,9 @@ Environment-based configuration
 
 Structured logging
 
-🚀 Setup & Run Locally
+## 🚀 Setup & Run Locally
 
-Prerequisites
+### Prerequisites
 
 Java 16 or higher
 
@@ -118,7 +118,7 @@ Verify Kafka Topics
 bin/kafka-topics.sh --list --bootstrap-server localhost:9092
 ```
 
-📂 Folder Structure
+## 📂 Folder Structure
 
 | Folder / File       | Description                              |
 |---------------------|------------------------------------------|
@@ -129,7 +129,7 @@ bin/kafka-topics.sh --list --bootstrap-server localhost:9092
 | .gitignore          | Git ignore configuration                  |
 
 
-🔄 How It Works
+## 🔄 How It Works
 Order Service publishes an event when an order is placed
 
 Kafka delivers the event asynchronously
@@ -140,7 +140,7 @@ Email Service sends order confirmation
 
 Kafka enables scalable, fault-tolerant communication without tight coupling.
 
-🤝 Contributing
+## 🤝 Contributing
 Fork the repository
 
 Create a feature branch
