@@ -42,6 +42,7 @@ Kafka ensures asynchronous communication and decoupling between services.
 
 
 🛠 Technologies Used
+
 Java 16
 
 Spring Boot 4.0.1
@@ -57,6 +58,7 @@ Docker (optional)
 SLF4J & Logback
 
 ✨ Features
+
 Event-driven communication using Kafka
 
 JSON message serialization and deserialization
@@ -68,7 +70,9 @@ Environment-based configuration
 Structured logging
 
 🚀 Setup & Run Locally
+
 Prerequisites
+
 Java 16 or higher
 
 Apache Kafka & Zookeeper
@@ -78,24 +82,31 @@ Maven 3.x
 Git
 
 Clone Repository
-bash
-Copy code
+
+```
 git clone https://github.com/AQUIB7050/Event-Driven-Microservices.git
 cd Event-Driven-Microservices/Microservices
+```
+
+
+
+
 Start Kafka
-bash
-Copy code
+```
 # Start Zookeeper
 bin/zookeeper-server-start.sh config/zookeeper.properties
 
 # Start Kafka broker
 bin/kafka-server-start.sh config/server.properties
+```
+
 Build & Run Microservices
-bash
-Copy code
+```
 # Run inside each microservice directory
 mvn clean install
 mvn spring-boot:run
+```
+
 order-service → Produces order events
 
 stock-service → Consumes order events
@@ -103,12 +114,11 @@ stock-service → Consumes order events
 email-service → Consumes order events
 
 Verify Kafka Topics
-bash
-Copy code
+```
 bin/kafka-topics.sh --list --bootstrap-server localhost:9092
+```
+
 📂 Folder Structure
-text
-Copy code
 Microservices/
 ├── base-domains/      # Shared DTOs and models
 ├── email-service/     # Email notification service
@@ -132,19 +142,19 @@ Fork the repository
 
 Create a feature branch
 
-bash
-Copy code
+```
 git checkout -b feature-name
+```
 Commit changes
-
-bash
-Copy code
+```
 git commit -m "Add feature"
-Push to GitHub
+```
 
-bash
-Copy code
+Push to GitHub
+```
 git push origin feature-name
+```
+
 Open a Pull Request
 
 📄 License
