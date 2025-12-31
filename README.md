@@ -46,43 +46,43 @@ Kafka ensures asynchronous communication and decoupling between services.
 
 ## 🛠 Technologies Used
 
-Java 16
+- Java 16
 
-Spring Boot 4.0.1
+- Spring Boot 4.0.1
 
-Spring Kafka 4.0.1
+- Spring Kafka 4.0.1
 
-Apache Kafka 4.1.1
+- Apache Kafka 4.1.1
 
-Maven
+- Maven
 
-Docker (optional)
+- Docker (optional)
 
-SLF4J & Logback
+- SLF4J & Logback
 
 ## ✨ Features
 
-Event-driven communication using Kafka
+- Event-driven communication using Kafka
 
-JSON message serialization and deserialization
+- JSON message serialization and deserialization
 
-Kafka topic auto-creation via Spring Kafka
+- Kafka topic auto-creation via Spring Kafka
 
-Environment-based configuration
+- Environment-based configuration
 
-Structured logging
+- Structured logging
 
 ## 🚀 Setup & Run Locally
 
 ### Prerequisites
 
-Java 16 or higher
+- Java 16 or higher
 
-Apache Kafka & Zookeeper
+- Apache Kafka & Zookeeper
 
-Maven 3.x
+- Maven 3.x
 
-Git
+- Git
 
 Clone Repository
 
@@ -110,11 +110,11 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-order-service → Produces order events
+- order-service → Produces order events
 
-stock-service → Consumes order events
+- stock-service → Consumes order events
 
-email-service → Consumes order events
+- email-service → Consumes order events
 
 Verify Kafka Topics
 ```
@@ -133,47 +133,47 @@ bin/kafka-topics.sh --list --bootstrap-server localhost:9092
 
 
 ## 🔄 How It Works
-Order Service publishes an event when an order is placed
+- Order Service publishes an event when an order is placed
 
-Kafka delivers the event asynchronously
+- Kafka delivers the event asynchronously
 
-Stock Service updates inventory
+- Stock Service updates inventory
 
-Email Service sends order confirmation
+- Email Service sends order confirmation
 
-Kafka enables scalable, fault-tolerant communication without tight coupling.
+- Kafka enables scalable, fault-tolerant communication without tight coupling.
 
 ## 🤝 Contributing
-Fork the repository
+- Fork the repository
 
-Create a feature branch
+- Create a feature branch
 
 ```
 git checkout -b feature-name
 ```
-Commit changes
+- Commit changes
 ```
 git commit -m "Add feature"
 ```
 
-Push to GitHub
+- Push to GitHub
 ```
 git push origin feature-name
 ```
 
-Open a Pull Request
+- Open a Pull Request
 
 ### 📄 License
 
-This project is MIT Licensed.
+- This project is MIT Licensed.
 
 ## 👤 Author
 
 **Aquib Ahmed Ansari**  
 
-🌐 [Portfolio](https://my-portfolio-nu-sable-23.vercel.app/)
+- 🌐 [Portfolio](https://my-portfolio-nu-sable-23.vercel.app/)
 
-💼 [LinkedIn](https://www.linkedin.com/in/aquib-ahmed-7050/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/aquib-ahmed-7050/)
 
-🔗 [GitHub](https://github.com/AQUIB7050)  
+- 🔗 [GitHub](https://github.com/AQUIB7050)  
 
